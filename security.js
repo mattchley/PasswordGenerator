@@ -1,4 +1,4 @@
-// Makes the password length between 8-128
+// Makes the password length parameter
 function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
   }

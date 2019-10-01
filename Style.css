@@ -1,8 +1,11 @@
 /* General */
+*{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 body{
-     background-color: 249, 251, 253;
-     color: 56, 73, 85;
+     background-color: rgb (249, 251, 253);
+     color: rgb(56, 73, 85);
 }
 h1{
     text-align: center;
@@ -13,11 +16,13 @@ header{
 h2{
     text-align: left;
     padding: 20px;
+    border-bottom: 3px solid #ddd;
 }
 .container{
     max-width: 960px;
-    background-color: 253, 253, 253;
+    background-color: rgb(253, 253, 253);
     margin: auto;
+    border-radius: 20px;
 }
 
 /* Main Content */
@@ -44,16 +49,26 @@ textarea{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-top: 3px solid #ddd;
+    padding: 20px;
 }
 
 #generate{
-    background-color: 189, 0, 0;
+    background-color: rgb(189, 0, 0);
     width: 40%;
     height: 50px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
 }
 
 #copy{
-    background-color: 134, 139, 146;
+    background-color: rgb(134, 139, 146);
     width: 40%;
     height: 50px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
 }
