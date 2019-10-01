@@ -1,5 +1,9 @@
 // Generate random [password]
-function generate( length = 12 ){
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+  }
+
+function generate( length = random(8, 128) ){
     var uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     var lowercase = 'abcdefghijklmnopqrstuvwxyz';
     var numbers = '0123456789';
