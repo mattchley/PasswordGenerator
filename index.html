@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="Develop/style.css">
-    <link rel="stylesheet" type="text/jacascript" href="Develop/security.js">
-    <title>Password Generator</title>
-  </head>
 
-  <body>
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <script src="security.js"></script>
+  <title>Password Generator</title>
+</head>
+
+<body>
+  <div class="container">
     <header>
       <h1>Password Generator</h1>
     </header>
     <h2>Generate a Password</h2>
-    <textarea
-      readonly
-      id="password"
-      placeholder="Your Secure Password"
-      aria-label="Generated Password"
-    ></textarea>
+    <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
     <br>
-    <button id="generate">Generate Password</button>
+    <button id="generate" onclick="generate();">Generate Password</button>
     <button id="copy">
       Copy to Clipboard
     </button>
   </div>
-  </body>
+</body>
 </html>
