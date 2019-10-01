@@ -1,0 +1,18 @@
+body{
+     background-color: 249, 251, 253;
+     color: 56, 73, 85;
+}
+h1{
+    text-align: center;
+}
+.container{
+    max-width: 960px;
+    background-color: 253, 253, 253;
+}
+#generate{
+    background-color: 189, 0, 0;
+}
+
+#copy{
+    background-color: 134, 139, 146;
+}
