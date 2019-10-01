@@ -1,3 +1,5 @@
+/* General */
+
 body{
      background-color: 249, 251, 253;
      color: 56, 73, 85;
@@ -5,14 +7,53 @@ body{
 h1{
     text-align: center;
 }
+header{
+    padding: 20px;
+}
+h2{
+    text-align: left;
+    padding: 20px;
+}
 .container{
     max-width: 960px;
     background-color: 253, 253, 253;
+    margin: auto;
 }
+
+/* Main Content */
+/* Styleing for outside of content */
+.content{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+}
+/* Area of where the Password is generated */
+#password{
+    height: 240px;
+    width: 80%;
+}
+/* text area border, font, justificaiton */
+textarea{
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+    border-style: dashed;
+}
+
+/* Buttons */
+.buttonGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 #generate{
     background-color: 189, 0, 0;
+    width: 40%;
+    height: 50px;
 }
 
 #copy{
     background-color: 134, 139, 146;
+    width: 40%;
+    height: 50px;
 }
